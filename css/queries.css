@@ -27,7 +27,7 @@
 
 	.nav-toggle {
 		position: absolute;
-		top: 0;
+		top: -5px;
 		right: 35px;
 		z-index: 999999;
 		padding: 10px 35px 16px 0;
