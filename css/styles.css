@@ -392,8 +392,9 @@ header {
   padding: 50px 0;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
-  width: 1170px;
+  width: auto; /* originally: width: 1170px;*/ 
   margin: 0 auto;
+  background-color: #FF5274;
   -webkit-transition: padding 300ms ease-in-out;
           transition: padding 300ms ease-in-out; }
   header a {
