@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:700i|Roboto);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600|Roboto);
 /* ==========================================================================
 Typography
 ========================================================================== */
@@ -131,7 +132,7 @@ ul li {
   list-style: none; }
 
 .section-padding {
-  padding: 160px 0; }
+  padding: 160px 0 60px 160px; }
 
 .tooltip {
   position: absolute;
@@ -355,7 +356,7 @@ Hero
 ========================================================================== */
 .hero {
   min-height: 750px;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/sparkler.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), url("../img/pedestrians.jpeg") center center;
   background-size: cover;
   position: relative; }
   .hero .down-arrow a {
@@ -364,11 +365,11 @@ Hero
     color: rgb(199, 199, 199);
     margin-bottom: 40px; }
   .hero p.intro {
-    font-family: Noto Serif, serif; 
+    font-family: 'Open Sans', sans-serif;
     color: #fff;
-    font-size: 22px;
-    font-style: italic;
-    font-weight: 100;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
     margin-top: 20px;
     margin-bottom: 20px; }
   .hero .hero-content {
