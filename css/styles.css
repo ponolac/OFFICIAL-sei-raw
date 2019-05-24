@@ -462,7 +462,30 @@ Intro
 
 .intro-content {
   display: inline-block;
-  width: 80%; }
+  width: 80%; 
+}
+
+.intro-content p {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  line-height: 1.6;
+}
+
+.intro-content h5 {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px; 
+  line-height: 1.2;
+}
 
 /* ==========================================================================
 Features-stack
