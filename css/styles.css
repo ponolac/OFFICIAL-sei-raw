@@ -367,11 +367,13 @@ Hero
   .hero p.intro {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
-    font-size: 28px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 20px; }
+    margin-bottom: 20px; 
+    line-height: 1.2;
+}
   .hero .hero-content {
     padding-top: 26%;
     padding-bottom: 15%; }
@@ -435,7 +437,7 @@ header {
 
 .down-arrow {
   color: #fff;
-  font-size: 30px;
+  font-size: 38px;
   position: absolute;
   bottom: 30px;
   left: 50%;
