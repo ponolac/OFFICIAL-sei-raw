@@ -282,7 +282,7 @@ Card Flip
   display: flex;
   flex-flow: row wrap; 
   background-color: #F3F4F8;
-  padding-top: 150px;
+  padding-top: 110px;
   padding-bottom: 150px;
 }
 .main {
@@ -296,8 +296,9 @@ Card Flip
   min-width: 200px;
   max-width: 350px;
   height: 410px;
-  box-shadow: 0px 0px 1px #000;
+  box-shadow: 0px 0px 9px #000;
 }
+
 .front,
 .back {
   background: #F3F4F8;
@@ -322,6 +323,12 @@ Card Flip
 
 .skills h3 {
   color: #fff;
+}
+
+.col-md-4 .row h5 {
+  font-size: 90px;
+  margin-left: 700px;
+  padding-bottom: 75px;
 }
 
 .front .data-wrapper,
@@ -622,7 +629,7 @@ Intro
   padding-bottom: 70px;
 }
 
-.intro-content h5 {
+.intro-content h5, .col-md-4 .row h5 {
   font-family: 'Open Sans', sans-serif;
   color: rgba(13, 54, 107, 0.6);
   font-size: 30px;
